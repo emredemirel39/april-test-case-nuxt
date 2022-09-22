@@ -52,7 +52,7 @@ import Vue from 'vue';
 import { ICountry } from '../types';
 
 export default Vue.extend({
-    layout: "test",
+    layout: "Header",
     name: "IndexPage",
     data() {
         return {
