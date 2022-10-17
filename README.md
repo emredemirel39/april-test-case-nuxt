@@ -1,5 +1,22 @@
 # april-test-case
 
+## TASK
+
+Write a web application on Vue2 using the Nuxt 2 framework.
+The application should consist of 1 page in the form of a catalog with a search and a list of items.
+On the page, you need to connect calls to any public API, you can take any API from this source: https://rapidapi.com/collection/list-of-free-apis
+It is absolutely necessary to use flex layout + SCSS, provide adaptability for any screen sizes, use TypeScript.
+
+Functional:
+- search by any coincidence of the properties of an element (for example, this is an online store selling digital equipment, the product has a name, color, size, etc. When entering any of the product properties in the search, filter the list by displaying matches)
+- change the display of the list of elements (implement 2 types: tiled, horizontal)
+- add pagination (can be in any form)
+- when clicking on any of the elements, display the same properties of the element (detail). You can use a modal window or go to a separate page.
+- use vuex/store to store elements, client actions.
+
+Creativity in design is welcome, but bad design will not affect the result if there is no opportunity.
+It is allowed to use ready-made UI components. We do not limit the time, there is no need to hurry if there is a desire to work out the task.
+
 ## Build Setup
 
 ```bash
